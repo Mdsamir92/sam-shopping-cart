@@ -1,0 +1,100 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(169, 119, 216);
+    width: 0;
+    border-radius: 5rem;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.home-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.home-banner img{
+    width: 90vw;
+    border-radius: 30px;
+}
+.apple-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.apple-banner img{
+    width: 45vw;
+    border-radius: 30px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img {
+    height: 60vh;
+    width: 90%;
+    border-radius: 30px;
+    /* margin-top: 10px; */
+    scroll-behavior: smooth;
+    transition: .5s linear;
+}
+
+
+
+.slider-l {
+    position: relative;
+    left: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 40px;
+    font-weight: 500;
+    color: blue;
+
+}
+
+.slider-r {
+    position: relative;
+    right: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 40px;
+    font-weight: 500;
+    color: blue;
+}
+
+@media(max-width:768px){
+    .home-banner img {
+        height: 10vh;
+        width:100%;
+        /* display: none; */
+       
+    }
+    .home img{
+        height: 10vh;
+        width: 95vw;
+        /* display: none; */
+
+    }
+    
+} 
