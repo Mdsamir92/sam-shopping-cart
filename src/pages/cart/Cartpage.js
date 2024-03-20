@@ -71,7 +71,7 @@ const CartPage = () => {
         // validation 
         if (addressInfo.name === "" || addressInfo.address === "" || addressInfo.pincode === "" || addressInfo.mobileNumber === "") {
             return toast.error("All Fields are required")
-        }else if(addressInfo.name.length<3 || addressInfo.address.length<5 ||  addressInfo.pincode.length<5 ||addressInfo.mobileNumber.length<10  ){
+        }else if(addressInfo.name.length<3 || addressInfo.address.length<4 ||  addressInfo.pincode.length<6 ||addressInfo.mobileNumber.length<10  ){
           return  toast.error("Enter valid Data")
           }
 
