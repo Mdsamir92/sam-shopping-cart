@@ -25,7 +25,7 @@ function Signup() {
   const userSignupFunction = async (e) => {
     e.preventDefault();
     // validation 
-    if (userSignup.name === "" || userSignup.email === "" || userSignup.password === ""||) {
+    if (userSignup.name === "" || userSignup.email === "" || userSignup.password === "") {
         toast.error("All Fields are required")
        
     }else if(userSignup.password.length<6) {
