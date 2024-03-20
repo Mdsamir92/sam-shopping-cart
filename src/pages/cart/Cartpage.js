@@ -102,6 +102,7 @@ const CartPage = () => {
                 mobileNumber: "",
             })
             toast.success("Order Placed Successfull")
+              navigate("/")
           
         } catch (error) {
             console.log(error)
