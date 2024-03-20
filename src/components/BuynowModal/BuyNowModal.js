@@ -85,7 +85,7 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                     </div>
 
                     <div className="">
-                    // <a href='https://rzp.io/l/pUeeNLp'>
+                 
                         <Button
 
                             type="button"
@@ -97,7 +97,7 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                         >
                             Buy now
                         </Button>
-                        // </a>
+                      
                     </div>
 
                 </DialogBody>
