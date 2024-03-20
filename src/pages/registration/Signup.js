@@ -27,8 +27,10 @@ function Signup() {
     // validation 
     if (userSignup.name === "" || userSignup.email === "" || userSignup.password === ""||) {
         toast.error("All Fields are required")
-    }else if( userSignup.password.length < 6) {
+        return;
+    }else if(userSignup.password.length<6) {
        toast.error("Password required minimum 6 char")
+        return;
     }
     
 
