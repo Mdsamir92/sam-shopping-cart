@@ -85,15 +85,14 @@
 
 @media(max-width:768px){
     .home-banner img {
-        height: 10vh;
+        height: 15vh;
         width:100%;
-        /* display: none; */
        
     }
     .home img{
-        height: 10vh;
-        width: 95vw;
-        /* display: none; */
+        height: 15vh;
+        width:100%;
+       
 
     }
     
