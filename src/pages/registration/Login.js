@@ -30,6 +30,8 @@ function Login() {
           // validation 
           if (userLogin.email === "" || userLogin.password === "") {
               toast.error("All Fields are required")
+          }else if(userLogin.password.length<6){
+            toast.error("check email or password or register")
           }
   
           setLoading(true);
