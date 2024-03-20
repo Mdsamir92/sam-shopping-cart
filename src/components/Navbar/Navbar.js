@@ -15,9 +15,7 @@ const Navbar = () => {
         navigate("/login")
     }
 
-   // CartItems
-    // const cartItems = useSelector((state) => state.cartreducer.carts);
-  
+
 
     // navList Data
     const navList = (
@@ -47,13 +45,7 @@ const Navbar = () => {
             {/* logout  */}
             {user && <li className=" cursor-pointer" onClick={logout}>Logout </li>}
 
-               {/* Cart */}
-                 {/* <li>
-                <Link to={'/cart'}>
-                <i className="fa-solid fa-cart-shopping"> <sup> {cartItems.length}</sup></i>
-                </Link>
-                </li> */}
-                
+      
 
         </ul>
     )
