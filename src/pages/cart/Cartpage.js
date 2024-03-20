@@ -7,7 +7,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Timestamp, addDoc, collection } from "firebase/firestore";
 import { fireDB } from "../../firebase/FirebaseConfig";
 import BuyNowModal from "../../components/BuynowModal/BuyNowModal";
-
+import { Navigate } from "react-router";
 
 
 const CartPage = () => {
