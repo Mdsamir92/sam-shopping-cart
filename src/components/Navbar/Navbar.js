@@ -54,9 +54,9 @@ const Navbar = () => {
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
                 {/* left  */}
-                <div className="flex justify-center items-center left py-3 lg:py-0" data-aos="fade-right" data-aos-duration="1400"  data-aos-easing="linear">
+                <div className="flex justify-center items-center left py-3 lg:py-0" >
                     <Link to={'/'}>
-                        {/* <h1 className=" font-bold text-white text-2xl align-item--center">SamKart    </h1> */}
+                      
                      <img className="h-10 " src="./images/samLogo.png" alt="" />  
                    
                     </Link>
