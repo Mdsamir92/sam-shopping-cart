@@ -38,7 +38,7 @@ const Search = () => {
                     value={search}
                     placeholder='Search here...'
                     onChange={(e) => setSearch(e.target.value)}
-                    className=' bg-gray-200 placeholder-gray-400 rounded-lg px-2 py-2 w-50 lg:w-50 md:w-50 outline-none text-black '
+                    className=' bg-gray-200 placeholder-gray-400 rounded-full px-2 py-2 w-50 lg:w-50 md:w-50 outline-none text-black '
                 />
             </div>
 
