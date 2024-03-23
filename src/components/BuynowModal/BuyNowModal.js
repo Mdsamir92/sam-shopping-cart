@@ -19,7 +19,7 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
             >
                 CheckOut
             </Button>
-            <Dialog open={open} handler={handleOpen} className=" py-4 bg-pink-50">
+            <Dialog open={open} handler={handleOpen} className="buy-modal py-4 bg-pink-50">
                 <DialogBody className="mx-auto w-full max-w-[24rem]">
                     <div className="mb-3">
 
