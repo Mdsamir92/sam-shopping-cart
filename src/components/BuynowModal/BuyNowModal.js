@@ -22,6 +22,10 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
             <Dialog open={open} handler={handleOpen} className=" py-4 bg-pink-50">
                 <DialogBody className="mx-auto w-full max-w-[24rem]">
                     <div className="mb-3">
+
+                       <h3 className="font-bold">Billing Details</h3>
+
+                    <label>Name</label>
                         <input
                             type="text"
                             name="name"
@@ -33,10 +37,11 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                                 })
                             }}
                             placeholder='Enter your name'
-                            className='bg-pink-50 border border-pink-200 px-2 py-2 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
+                            className='bg-pink-50 border border-pink-200 px-2 py-1 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
                         />
                     </div>
                     <div className="mb-3">
+                    <label>Address</label>
                         <input
                             type="text"
                             name="address"
@@ -47,12 +52,13 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                                     address: e.target.value
                                 })
                             }}
-                            placeholder='Enter your address'
-                            className='bg-pink-50 border border-pink-200 px-2 py-2 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
+                            placeholder='Enter your full address'
+                            className='bg-pink-50 border border-pink-200 px-2 py-1 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
                         />
                     </div>
 
                     <div className="mb-3">
+                    <label>Pincode</label>
                         <input
                             type="number"
                             name="pincode"
@@ -64,11 +70,12 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                                 })
                             }}
                             placeholder='Enter your pincode'
-                            className='bg-pink-50 border border-pink-200 px-2 py-2 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
+                            className='bg-pink-50 border border-pink-200 px-2 py-1 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
                         />
                     </div>
 
                     <div className="mb-3">
+                    <label>Phone</label>
                         <input
                             type="text"
                             name="mobileNumber"
@@ -79,13 +86,13 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                                     mobileNumber: e.target.value
                                 })
                             }}
-                            placeholder='Enter your mobileNumber'
-                            className='bg-pink-50 border border-pink-200 px-2 py-2 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
+                            placeholder='Enter your mobile Number'
+                            className='bg-pink-50 border border-pink-200 px-2 py-1 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
                         />
                     </div>
 
                     <div className="">
-                 
+                    {/* <a href='https://rzp.io/l/pUeeNLp'> */}
                         <Button
 
                             type="button"
@@ -93,13 +100,14 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                                 handleOpen();
                                 buyNowFunction();
                             }}
-                            className="w-full px-4 py-3 text-center text-gray-100 bg-pink-600 border border-transparent dark:border-gray-700 rounded-lg"
+                            className="w-full text-lg px-4 py-1 text-center text-gray-100 bg-pink-600 border border-transparent dark:border-gray-700 rounded-lg"
                         >
-                            Buy now
+                          Place Order
                         </Button>
-                      
+                        {/* </a> */}
                     </div>
 
+                      
                 </DialogBody>
             </Dialog>
         </>
