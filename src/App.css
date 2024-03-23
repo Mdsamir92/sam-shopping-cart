@@ -41,3 +41,11 @@
     position: relative;
     top: 17%;
 }
+
+@media(max-width:768px){
+.buy-modal{
+    position: relative;
+    top: 23%;
+}
+}
+
