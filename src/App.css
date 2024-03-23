@@ -36,3 +36,8 @@
    .cart-btn:hover::before {
     width: 100%;
    }
+
+.buy-modal{
+    position: relative;
+    top: 20%;
+}
