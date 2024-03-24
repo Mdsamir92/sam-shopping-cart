@@ -50,9 +50,10 @@ const CartPage = () => {
     // user
     const user = JSON.parse(localStorage.getItem('users'))
 
-    // Buy Now Function
+     // Buy Now Function
     const [addressInfo, setAddressInfo] = useState({
         name: "",
+        city:"",
         address: "",
         pincode: "",
         mobileNumber: "",
@@ -69,7 +70,7 @@ const CartPage = () => {
 
     const buyNowFunction = () => {
         // validation 
-        if (addressInfo.name === "" || addressInfo.address === "" || addressInfo.pincode === "" || addressInfo.mobileNumber === "") {
+        if (addressInfo.name === "" ||  addressInfo.city === "" || addressInfo.address === "" || addressInfo.pincode === "" || addressInfo.mobileNumber === "") {
             return toast.error("All Fields are required")
         }else if(addressInfo.name.length<3 || addressInfo.address.length<4 ||  addressInfo.pincode.length<6 ||addressInfo.mobileNumber.length<10  ){
           return  toast.error("Enter valid Data")
@@ -97,6 +98,7 @@ const CartPage = () => {
             addDoc(orderRef, orderInfo);
             setAddressInfo({
                 name: "",
+                city:"",
                 address: "",
                 pincode: "",
                 mobileNumber: "",
@@ -109,7 +111,6 @@ const CartPage = () => {
         }
 
     }
-
     return (
 
         <div className="container mx-auto px-4 max-w-7xl lg:px-0">
