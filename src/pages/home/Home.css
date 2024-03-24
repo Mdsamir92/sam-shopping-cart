@@ -30,7 +30,7 @@
 }
 .home-banner img{
     width: 90vw;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .apple-banner {
     display: flex;
@@ -40,7 +40,7 @@
 }
 .apple-banner img{
     width: 45vw;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .home{
@@ -52,8 +52,7 @@
 .home img {
     height: 60vh;
     width: 90%;
-    border-radius: 30px;
-    /* margin-top: 10px; */
+    border-radius: 20px;
     scroll-behavior: smooth;
     transition: .5s linear;
 }
@@ -85,12 +84,12 @@
 
 @media(max-width:768px){
     .home-banner img {
-        height: 15vh;
+        height: 20vh;
         width:100%;
        
     }
     .home img{
-        height: 15vh;
+        height: 20vh;
         width:100%;
        
 
