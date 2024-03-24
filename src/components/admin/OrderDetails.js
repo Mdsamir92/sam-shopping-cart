@@ -16,85 +16,89 @@ const OrderDetails = () => {
 
                 {/* table  */}
                 <div className="w-full overflow-x-auto hide-scroll-bar">
-                    <table className="w-full text-left border border-collapse sm:border-separate border-pink-100 text-pink-400" >
+                    <table className="w-full text-left border border-collapse sm:border-separate border-pink-100 text-pink-400 " >
                         <tbody>
                             <tr>
-                                <th scope="col" className="h-12 px-6 text-md border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100 font-bold fontPara">
+                                <th scope="col" className="h-12 px-6 text-sm border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100 font-bold fontPara">
                                     S.No.
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Order Id
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Image
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Title
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Category
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Price
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Quantity
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Total Price
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Status
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Name
+                                </th>
+                                <th scope="col"
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                  City
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Address
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Pincode
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Phone Number
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Email
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Date
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Action
                                 </th>
 
@@ -107,7 +111,7 @@ const OrderDetails = () => {
                                         {order.cartItems.map((item, index) => {
                                             const { id, productImageUrl, title, category, price, quantity } = item
                                             return (
-                                                <tr key={index} className="text-pink-300">
+                                                <tr key={index} className="text-pink-300 ">
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 ">
                                                         {index + 1}
                                                     </td>
@@ -147,6 +151,10 @@ const OrderDetails = () => {
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
                                                         {order.addressInfo.name}
                                                     </td>
+                                                    <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
+                                                        {order.addressInfo.city}
+                                                    </td>
+
 
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
                                                         {order.addressInfo.address}
@@ -181,8 +189,7 @@ const OrderDetails = () => {
                     </table>
                 </div>
             </div>
-    
-    <style dangerouslySetInnerHTML={{ __html: "\n.hide-scroll-bar {\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n.hide-scroll-bar::-webkit-scrollbar {\n  display: none;\n}\n" }} />
+            <style dangerouslySetInnerHTML={{ __html: "\n.hide-scroll-bar {\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n.hide-scroll-bar::-webkit-scrollbar {\n  display: none;\n}\n" }} />
 
         </div>
     );
