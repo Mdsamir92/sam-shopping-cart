@@ -84,10 +84,7 @@ const UserDashboard = () => {
                                                                 <div className="text-sm font-medium text-gray-900">#{id}</div>
                                                             </div>
 
-                                                            // <div className="mb-4">
-                                                            //     <div className="text-sm font-semibold">Date</div>
-                                                            //     <div className="text-sm font-medium text-gray-900">{date}</div>
-                                                            // </div>
+                                                         
 
                                                             <div className="mb-4">
                                                                 <div className="text-sm font-semibold">Total Amount</div>
