@@ -24,15 +24,18 @@ function Signup() {
 
   const userSignupFunction = async (e) => {
     e.preventDefault();
-    // validation 
+
+      // validation 
     if (userSignup.name === "" || userSignup.email === "" || userSignup.password === "") {
         toast.error("All Fields are required")
-       
-    }else if(userSignup.password.length<6) {
-       toast.error("Password required minimum 6 char")
-     
+    } else if(userSignup.name.length<3){
+      toast.error("Name required minimum 3 char")
+    }else if(userSignup.email.length<13){
+      toast.error("enter valid email or use @gmail.com")
     }
-    
+     else if(userSignup.password.length<6){
+      toast.error("Password required minimum 6 char")
+    }
 
 
     setLoading(true);
