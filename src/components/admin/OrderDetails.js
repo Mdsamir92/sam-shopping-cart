@@ -15,7 +15,7 @@ const OrderDetails = () => {
                 </div>
 
                 {/* table  */}
-                <div className="w-full overflow-x-auto">
+                <div className="w-full overflow-x-auto hide-scroll-bar">
                     <table className="w-full text-left border border-collapse sm:border-separate border-pink-100 text-pink-400" >
                         <tbody>
                             <tr>
@@ -181,6 +181,9 @@ const OrderDetails = () => {
                     </table>
                 </div>
             </div>
+    
+    <style dangerouslySetInnerHTML={{ __html: "\n.hide-scroll-bar {\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n.hide-scroll-bar::-webkit-scrollbar {\n  display: none;\n}\n" }} />
+
         </div>
     );
 }
