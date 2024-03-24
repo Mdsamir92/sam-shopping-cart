@@ -40,6 +40,22 @@ const BuyNowModal = ({ addressInfo, setAddressInfo, buyNowFunction }) => {
                             className='bg-pink-50 border border-pink-200 px-2 py-1 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
                         />
                     </div>
+                  <div className="mb-3">
+                    <label>City</label>
+                        <input
+                            type="text"
+                            name="city"
+                            value={addressInfo.city}
+                            onChange={(e) => {
+                                setAddressInfo({
+                                    ...addressInfo,
+                                    city: e.target.value
+                                })
+                            }}
+                            placeholder='Enter your city'
+                            className='bg-pink-50 border border-pink-200 px-2 py-1 w-full rounded-md outline-none text-pink-600 placeholder-pink-300'
+                        />
+                    </div>
                     <div className="mb-3">
                     <label>Address</label>
                         <input
