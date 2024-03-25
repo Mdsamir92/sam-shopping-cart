@@ -34,7 +34,7 @@ const OrderDetails = () => {
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-14 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Title
                                 </th>
 
