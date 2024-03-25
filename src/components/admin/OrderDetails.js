@@ -63,8 +63,8 @@ const OrderDetails = () => {
                                     Status
                                 </th>
 
-                                <th scope="col"
-                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                                             <th scope="col"
+                                    className="h-12 px-20 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Name
                                 </th>
                                 <th scope="col"
@@ -73,7 +73,7 @@ const OrderDetails = () => {
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-20 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Address
                                 </th>
 
@@ -88,12 +88,12 @@ const OrderDetails = () => {
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-12 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Email
                                 </th>
 
                                 <th scope="col"
-                                    className="h-12 px-6 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
+                                    className="h-12 px-14 text-sm font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
                                     Date
                                 </th>
 
