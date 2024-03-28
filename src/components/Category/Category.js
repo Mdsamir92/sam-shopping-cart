@@ -20,7 +20,8 @@ const category = [
         name: 'laptop'
     },
     {
-        image: 'https://cdn-icons-png.flaticon.com/256/10686/10686553.png',
+       
+        image: 'https://rukminim2.flixcart.com/image/224/224/xif0q/shoe/f/x/c/6-rsl049-red-tape-black-green-original-imagxw2t28swykhe.jpeg?q=90',
         name: 'shoes'
     },
     
