@@ -24,29 +24,29 @@ const Navbar = () => {
         <div className="md:hidden transition-all ease-out duration-500">
        
         <ul className=" text-center gap-10  text-white font-medium text-lg px-5 py-2 transition-all ease-out duration-500 ">
-            <li className=" pb-5  border-slate-700 hover:bg-slate-600">
+            <li className=" pb-5  border-slate-700 hover:bg-pink-900">
                 <Link spy={true} smooth={true} to={'/'}>Home</Link>
             </li>
 
             {/* All Product */}
-            <li className=" pb-5  border-slate-700 hover:bg-slate-600">
+            <li className=" pb-5  border-slate-700 hover:bg-pink-900">
                 <Link spy={true} smooth={true} to={'/allproduct'}>Products</Link>
             </li>
-            {!user ? <li className=" pb-5  border-slate-700 hover:bg-slate-600">
+            {!user ? <li className=" pb-5  border-slate-700 hover:bg-pink-900">
                 <Link spy={true} smooth={true} to={'/signup'}>Signup</Link>
             </li> : ""}
-            {!user ? <li className=" pb-5  border-slate-700 hover:bg-slate-600">
+            {!user ? <li className=" pb-5  border-slate-700 hover:bg-pink-900">
                 <Link spy={true} smooth={true} to={'/login'}>Login</Link>
             </li> : ""}
-            {user?.role === "user" && <li className=" pb-5  border-slate-700 hover:bg-slate-600">
+            {user?.role === "user" && <li className=" pb-5  border-slate-700 hover:bg-pink-900">
                 <Link spy={true} smooth={true} to={'/userDashboard'}>{user?.name} </Link>
             </li>}
-            {user?.role === "admin" && <li className=" pb-5  border-slate-700 hover:bg-slate-600">
+            {user?.role === "admin" && <li className=" pb-5  border-slate-700 hover:bg-pink-900">
                 <Link spy={true} smooth={true} to={'/adminDashboard'}>{user?.name} </Link>
             </li>}
 
             {/* logout  */}
-            {user && <li className=" pb-5  border-slate-700 hover:bg-slate-600 cursor-pointer" onClick={logout}>Logout </li>}
+            {user && <li className=" pb-5  border-slate-700 hover:bg-pink-900 cursor-pointer" onClick={logout}>Logout </li>}
         </ul>
         <Search />
         <br/>
