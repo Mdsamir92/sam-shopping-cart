@@ -54,9 +54,7 @@ function Home() {
         <img className=" h-44 lg:h-full items-center" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844" alt="" data-aos="fade-up" data-aos-duration="1400"  data-aos-easing="linear" />
       </div> 
       <Homeproduct />
-         <div className="home-banner py-3" >
-        <img className="h-44 lg:h-full items-center" src="https://rukminim2.flixcart.com/fk-p-flap/50/50/image/c9bf30814336e3ec.jpg?q=50" alt="" /><br />
-      </div>
+   
       <div className="home-banner py-3" >
         <img className=" h-44 lg:h-full items-center" src="./images/iphonebanner.png" alt="" /><br />
       </div>
