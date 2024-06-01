@@ -55,7 +55,7 @@ function Home() {
       </div> 
       <Homeproduct />
          <div className="home-banner py-3" >
-        <img className="lg:h-full items-center" src="https://rukminim2.flixcart.com/fk-p-flap/50/50/image/c9bf30814336e3ec.jpg?q=50" alt="" /><br />
+        <img className="h-44 lg:h-full items-center" src="https://rukminim2.flixcart.com/fk-p-flap/50/50/image/c9bf30814336e3ec.jpg?q=50" alt="" /><br />
       </div>
       <div className="home-banner py-3" >
         <img className=" h-44 lg:h-full items-center" src="./images/iphonebanner.png" alt="" /><br />
