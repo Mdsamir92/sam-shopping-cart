@@ -7,7 +7,7 @@ import Search from '../Searchbar/Search'
 const Navbar = () => {
 
     // get user from localStorage 
-    const user = JSON.parse(localStorage.getItem('users'));
+    const user = (localStorage.getItem('users'));
 
     // navigate 
     const navigate = useNavigate();
