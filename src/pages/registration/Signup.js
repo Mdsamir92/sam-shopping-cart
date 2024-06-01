@@ -25,7 +25,7 @@ function Signup() {
   const userSignupFunction = async (e) => {
     e.preventDefault();
       // validate using regex 
-      let emailRegex = /^[A-Za-z]+[\d]+[@]+[gmail]+[.]com$/.test(email);
+      let emailRegex = /^[A-Za-z]+[\d]+[@]+[gmail]+[.]com$/.test(userSignup.email);
   
     if (userSignup.name === "" || userSignup.email === "" || userSignup.password === "") {
       toast.error("All Fields are required")
