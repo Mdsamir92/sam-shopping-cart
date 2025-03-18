@@ -19,7 +19,11 @@ const Search = () => {
     const [search, setSearch] = useState("");
 
     // Filter Search Data
-    const filterSearchData = getAllProduct.filter((obj) => obj.title.toLowerCase().includes(search)).slice(0, 8)
+       const filterSearchData = getAllProduct
+   .filter((obj) => 
+        obj.title.toLowerCase().includes(search.toLowerCase()) // Convert both to lowercase
+    )
+    .slice(0, 8);
 
     const handleClose = () => {
         setSearch("");
